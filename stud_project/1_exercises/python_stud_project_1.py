@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import datetime
 now = datetime.datetime.now()
-
 data = pd.read_csv('https://raw.githubusercontent.com/iilyazakos/python_exercises/main/stud_project/data_1.csv')
-
 st.set_page_config(layout = "wide")
 st.header('Выбранный парметр')
 with st.container() as parametr:
